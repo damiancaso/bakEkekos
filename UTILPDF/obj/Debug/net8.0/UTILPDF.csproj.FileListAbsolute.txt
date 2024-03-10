@@ -1,0 +1,12 @@
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\bin\Debug\net8.0\UTILPDF.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\bin\Debug\net8.0\UTILPDF.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\bin\Debug\net8.0\UTILPDF.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\refint\UTILPDF.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\UTILPDF.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILPDF\obj\Debug\net8.0\ref\UTILPDF.dll

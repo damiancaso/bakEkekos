@@ -1,0 +1,12 @@
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\bin\Debug\net8.0\IBUSSNIES.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\bin\Debug\net8.0\IBUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\bin\Debug\net8.0\IBUSSNIES.pdb
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\refint\IBUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\IBUSSNIES.pdb
+D:\ekekosPolleriav2\EkekosPolleria\IBUSSNIES\obj\Debug\net8.0\ref\IBUSSNIES.dll

@@ -1,0 +1,14 @@
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\bin\Debug\net8.0\EKEKOSDATABASEMODEL.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\bin\Debug\net8.0\EKEKOSDATABASEMODEL.runtimeconfig.json
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\bin\Debug\net8.0\EKEKOSDATABASEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\bin\Debug\net8.0\EKEKOSDATABASEMODEL.pdb
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\refint\EKEKOSDATABASEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.pdb
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\EKEKOSDATABASEMODEL.genruntimeconfig.cache
+D:\ekekosPolleriav2\EkekosPolleria\EKEKOSDATABASEMODEL\obj\Debug\net8.0\ref\EKEKOSDATABASEMODEL.dll

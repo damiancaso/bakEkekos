@@ -1,0 +1,12 @@
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\bin\Debug\net8.0\UTILINTERFACE.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\bin\Debug\net8.0\UTILINTERFACE.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\bin\Debug\net8.0\UTILINTERFACE.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\refint\UTILINTERFACE.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\UTILINTERFACE.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILINTERFACE\obj\Debug\net8.0\ref\UTILINTERFACE.dll

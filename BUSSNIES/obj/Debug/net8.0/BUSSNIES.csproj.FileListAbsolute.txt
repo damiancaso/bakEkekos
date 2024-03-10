@@ -1,0 +1,12 @@
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\bin\Debug\net8.0\BUSSNIES.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\bin\Debug\net8.0\BUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\bin\Debug\net8.0\BUSSNIES.pdb
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\refint\BUSSNIES.dll
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\BUSSNIES.pdb
+D:\ekekosPolleriav2\EkekosPolleria\BUSSNIES\obj\Debug\net8.0\ref\BUSSNIES.dll
