@@ -1,12 +1,15 @@
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\bin\Debug\net8.0\ISERVICES.deps.json
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\bin\Debug\net8.0\ISERVICES.dll
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\bin\Debug\net8.0\ISERVICES.pdb
+D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\bin\Debug\net8.0\REQUESTRESPONSEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\bin\Debug\net8.0\REQUESTRESPONSEMODEL.pdb
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.csproj.AssemblyReference.cache
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.GeneratedMSBuildEditorConfig.editorconfig
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.AssemblyInfoInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.AssemblyInfo.cs
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.csproj.CoreCompileInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.sourcelink.json
+D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.csproj.CopyComplete
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.dll
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\refint\ISERVICES.dll
 D:\ekekosPolleriav2\EkekosPolleria\ISERVICES\obj\Debug\net8.0\ISERVICES.pdb

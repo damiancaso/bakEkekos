@@ -1,10 +1,3 @@
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.AssemblyReference.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.GeneratedMSBuildEditorConfig.editorconfig
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfoInputs.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfo.cs
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.CoreCompileInputs.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.MvcApplicationPartsAssemblyInfo.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.sourcelink.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\appsettings.Development.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\appsettings.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\APIWEB.staticwebassets.runtime.json
@@ -158,7 +151,14 @@ D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\UTILCONSTANS.pdb
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\UTILEXCEL.pdb
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\UTILINTERFACE.pdb
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\UTILPDF.pdb
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.CoreCompileInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.MvcApplicationPartsAssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.MvcApplicationPartsAssemblyInfo.cache
+D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.sourcelink.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets.build.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets.development.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets\msbuild.APIWEB.Microsoft.AspNetCore.StaticWebAssets.props

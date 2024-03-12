@@ -484,7 +484,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -504,6 +508,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -746,7 +754,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -766,6 +778,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

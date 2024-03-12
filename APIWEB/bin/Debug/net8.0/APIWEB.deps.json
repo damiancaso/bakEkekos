@@ -1068,7 +1068,9 @@
       "ISERVICES/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "REQUESTRESPONSEMODEL": "1.0.0"
         },
         "runtime": {
           "ISERVICES.dll": {}
@@ -1107,7 +1109,9 @@
       "SERVICES/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+          "ISERVICES": "1.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "SERVICES.dll": {}

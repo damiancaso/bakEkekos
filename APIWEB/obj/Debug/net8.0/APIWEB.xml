@@ -790,5 +790,24 @@
             <param name="id">Valor del PK</param>
             <returns>Cantidad de registros afectados</returns>
         </member>
+        <member name="M:APIWEB.Midleware.HelperHttpContext.getTokenClaims(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Retorna todas variables que se le asignaron a los claims al momento de generar el token
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:APIWEB.Midleware.IHelperHttpContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:APIWEB.Midleware.IHelperHttpContext.GetInfoRequest(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

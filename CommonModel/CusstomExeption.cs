@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommonModel
 {
-    internal class CusstomExeption
+    public class CusstomExeption : Exception
     {
         public string CodigoError { get; set; } = "";
         public string MensajeUsuario { get; set; } = "";

@@ -1,9 +1,3 @@
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.csproj.AssemblyReference.cache
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.GeneratedMSBuildEditorConfig.editorconfig
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.AssemblyInfoInputs.cache
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.AssemblyInfo.cs
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.csproj.CoreCompileInputs.cache
-D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.sourcelink.json
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\REPOSITORY.deps.json
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\REPOSITORY.runtimeconfig.json
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\REPOSITORY.dll
@@ -20,6 +14,12 @@ D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\IREPOSITORY.pdb
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\REQUESTRESPONSEMODEL.pdb
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\UTILCONSTANS.pdb
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\bin\Debug\net8.0\UTILINTERFACE.pdb
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.sourcelink.json
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.csproj.CopyComplete
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\REPOSITORY.dll
 D:\ekekosPolleriav2\EkekosPolleria\REPOSITORY\obj\Debug\net8.0\refint\REPOSITORY.dll
