@@ -11,4 +11,20 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CommonModel\CommonModel.csproj" />
+    <ProjectReference Include="..\EKEKOSDATABASEMODEL\EKEKOSDATABASEMODEL.csproj" />
+    <ProjectReference Include="..\IBUSSNIES\IBUSSNIES.csproj" />
+    <ProjectReference Include="..\IREPOSITORY\IREPOSITORY.csproj" />
+    <ProjectReference Include="..\ISERVICES\ISERVICES.csproj" />
+    <ProjectReference Include="..\REPOSITORY\REPOSITORY.csproj" />
+    <ProjectReference Include="..\REQUESTRESPONSEMODEL\REQUESTRESPONSEMODEL.csproj" />
+    <ProjectReference Include="..\SERVICES\SERVICES.csproj" />
+    <ProjectReference Include="..\UTILAUTOMAPPER\UTILAUTOMAPPER.csproj" />
+    <ProjectReference Include="..\UTILCONSTANS\UTILCONSTANS.csproj" />
+    <ProjectReference Include="..\UTILEXCEL\UTILEXCEL.csproj" />
+    <ProjectReference Include="..\UTILPDF\UTILPDF.csproj" />
+    <ProjectReference Include="..\UTILSECURITY\UTILSECURITY.csproj" />
+  </ItemGroup>
+
 </Project>

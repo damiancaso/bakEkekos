@@ -1,11 +1,17 @@
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\UTILAUTOMAPPER.deps.json
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\UTILAUTOMAPPER.dll
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\UTILAUTOMAPPER.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\EKEKOSDATABASEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\REQUESTRESPONSEMODEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\EKEKOSDATABASEMODEL.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\bin\Debug\net8.0\REQUESTRESPONSEMODEL.pdb
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.csproj.AssemblyReference.cache
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.GeneratedMSBuildEditorConfig.editorconfig
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.AssemblyInfoInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.AssemblyInfo.cs
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.sourcelink.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.csproj.CopyComplete
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.dll
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\refint\UTILAUTOMAPPER.dll
 D:\ekekosPolleriav2\EkekosPolleria\UTILAUTOMAPPER\obj\Debug\net8.0\UTILAUTOMAPPER.pdb

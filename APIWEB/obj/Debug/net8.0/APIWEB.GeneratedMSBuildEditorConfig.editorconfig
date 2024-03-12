@@ -18,30 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ekekosPolleriav2\EkekosPolleria\APIWEB
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcRXJyb3IuY3NodG1s
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcSW5kZXguY3NodG1s
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcUHJpdmFjeS5jc2h0bWw=
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/Controllers/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-4xh7quvoka
+[D:/ekekosPolleriav2/EkekosPolleria/APIWEB/otro/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = b3Ryb1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-4rybbjh8by

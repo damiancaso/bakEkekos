@@ -2,11 +2,15 @@ D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\CommonModel.deps
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\CommonModel.runtimeconfig.json
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\CommonModel.dll
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\CommonModel.pdb
+D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\UTILCONSTANS.dll
+D:\ekekosPolleriav2\EkekosPolleria\CommonModel\bin\Debug\net8.0\UTILCONSTANS.pdb
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.csproj.AssemblyReference.cache
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.GeneratedMSBuildEditorConfig.editorconfig
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.AssemblyInfoInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.AssemblyInfo.cs
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.sourcelink.json
+D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.csproj.CopyComplete
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.dll
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\refint\CommonModel.dll
 D:\ekekosPolleriav2\EkekosPolleria\CommonModel\obj\Debug\net8.0\CommonModel.pdb

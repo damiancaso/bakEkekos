@@ -27,6 +27,463 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\IBUSSNIES.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\IBUSSNIES.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\REPOSITORY.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\REPOSITORY.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\SERVICES.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\SERVICES.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\UTILAUTOMAPPER.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\UTILAUTOMAPPER.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\UTILEXCEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\UTILEXCEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\UTILPDF.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\UTILPDF.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\UTILSECURITY.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\UTILSECURITY.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj",
+        "projectName": "CommonModel",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj",
+        "projectName": "EKEKOSDATABASEMODEL",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\IBUSSNIES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\IBUSSNIES.csproj",
+        "projectName": "IBUSSNIES",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\IBUSSNIES.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IBUSSNIES\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj",
+        "projectName": "IREPOSITORY",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj",
+        "projectName": "ISERVICES",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\ISERVICES.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\ISERVICES\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -44,6 +501,649 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\REPOSITORY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\REPOSITORY.csproj",
+        "projectName": "REPOSITORY",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\REPOSITORY.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REPOSITORY\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj",
+        "projectName": "REQUESTRESPONSEMODEL",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\SERVICES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\SERVICES.csproj",
+        "projectName": "SERVICES",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\SERVICES.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\SERVICES\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\UTILAUTOMAPPER.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\UTILAUTOMAPPER.csproj",
+        "projectName": "UTILAUTOMAPPER",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\UTILAUTOMAPPER.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILAUTOMAPPER\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+              },
+              "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+                "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj",
+        "projectName": "UTILCONSTANS",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\UTILEXCEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\UTILEXCEL.csproj",
+        "projectName": "UTILEXCEL",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\UTILEXCEL.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILEXCEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj",
+        "projectName": "UTILINTERFACE",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\UTILPDF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\UTILPDF.csproj",
+        "projectName": "UTILPDF",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\UTILPDF.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILPDF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\UTILSECURITY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\UTILSECURITY.csproj",
+        "projectName": "UTILSECURITY",
+        "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\UTILSECURITY.csproj",
+        "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
+        "outputPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILSECURITY\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DENNIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"

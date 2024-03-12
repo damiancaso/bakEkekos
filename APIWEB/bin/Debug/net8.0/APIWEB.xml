@@ -1,0 +1,794 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIWEB</name>
+    </assembly>
+    <members>
+        <member name="M:APIWEB.Controllers.AuthController.Login(REQUESTRESPONSEMODEL.LoginRequest)">
+            <summary>
+            Metodo para realizar el inicio de sesión
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.Create(REQUESTRESPONSEMODEL.CargoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA CARGO EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.Update(REQUESTRESPONSEMODEL.CargoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.CargoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.Create(REQUESTRESPONSEMODEL.ColaboradorRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Colaborador EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.Update(REQUESTRESPONSEMODEL.ColaboradorRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ColaboradorController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.Create(REQUESTRESPONSEMODEL.DetallePedidoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA DetallePedido EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.Update(REQUESTRESPONSEMODEL.DetallePedidoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.DetallePedidoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.Create(REQUESTRESPONSEMODEL.ErrorRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Error EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.Update(REQUESTRESPONSEMODEL.ErrorRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ErrorController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.Create(REQUESTRESPONSEMODEL.MenuRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Menu EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.Update(REQUESTRESPONSEMODEL.MenuRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.Create(REQUESTRESPONSEMODEL.MenuRolRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA MenuRol EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.Update(REQUESTRESPONSEMODEL.MenuRolRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MenuRolController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.Create(REQUESTRESPONSEMODEL.MesaRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Mesa EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.Update(REQUESTRESPONSEMODEL.MesaRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MesaController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.Create(REQUESTRESPONSEMODEL.MetodoPagoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA MetodoPago EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.Update(REQUESTRESPONSEMODEL.MetodoPagoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.MetodoPagoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.Create(REQUESTRESPONSEMODEL.PedidoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Pedido EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.Update(REQUESTRESPONSEMODEL.PedidoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PedidoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.Create(REQUESTRESPONSEMODEL.PersonaRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Persona EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.Update(REQUESTRESPONSEMODEL.PersonaRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.Create(REQUESTRESPONSEMODEL.PersonaGeneroRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA PersonaGenero EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.Update(REQUESTRESPONSEMODEL.PersonaGeneroRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaGeneroController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.Create(REQUESTRESPONSEMODEL.PersonaTipoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA PersonaTipo EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.Update(REQUESTRESPONSEMODEL.PersonaTipoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.Create(REQUESTRESPONSEMODEL.PersonaTipoDocumentoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA PersonaTipoDocumento EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.Update(REQUESTRESPONSEMODEL.PersonaTipoDocumentoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.PersonaTipoDocumentoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.Create(REQUESTRESPONSEMODEL.ProductoCategoriumRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA ProductoCategorium EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.Update(REQUESTRESPONSEMODEL.ProductoCategoriumRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoCategoriumController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.Create(REQUESTRESPONSEMODEL.ProductoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Producto EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.Update(REQUESTRESPONSEMODEL.ProductoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.ProductoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.Create(REQUESTRESPONSEMODEL.RolRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Rol EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.Update(REQUESTRESPONSEMODEL.RolRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.RolController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.Create(REQUESTRESPONSEMODEL.UbicacionGeoRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA UbicacionGeo EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.Update(REQUESTRESPONSEMODEL.UbicacionGeoRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UbicacionGeoController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.Create(REQUESTRESPONSEMODEL.UserSesionRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA UserSesion EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.Update(REQUESTRESPONSEMODEL.UserSesionRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UserSesionController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.GetAll">
+            <summary>
+            Retorna todos los registros
+            </summary>
+            <returns>Retorna todos los registros</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+            retorna el registro por Primary key
+            </summary>
+            <param name="id">PK</param>
+            <returns>retorna el registro</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.Create(REQUESTRESPONSEMODEL.UsuarioRequest)">
+            <summary>
+            Inserta un nuevo registro
+            </summary>
+            <param name="request">Registro a insertar</param>
+            <returns>Retorna el registro insertado</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.GetByFilter(REQUESTRESPONSEMODEL.GenericFilterRequest)">
+            <summary>
+            RETORNA LA TABLA Usuario EN BASE A PAGINACIÓN Y FIILTROS
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.Update(REQUESTRESPONSEMODEL.UsuarioRequest)">
+            <summary>
+            Actualiza un registro
+            </summary>
+            <param name="entity">registro a actualizar</param>
+            <returns>retorna el registro Actualiza</returns>
+        </member>
+        <member name="M:APIWEB.Controllers.UsuarioController.delete(System.Int32)">
+            <summary>
+            Elimina un registro
+            </summary>
+            <param name="id">Valor del PK</param>
+            <returns>Cantidad de registros afectados</returns>
+        </member>
+    </members>
+</doc>

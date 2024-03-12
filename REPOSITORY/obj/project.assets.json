@@ -1623,6 +1623,104 @@
             "rid": "win"
           }
         }
+      },
+      "CommonModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "UTILCONSTANS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommonModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonModel.dll": {}
+        }
+      },
+      "EKEKOSDATABASEMODEL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EKEKOSDATABASEMODEL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EKEKOSDATABASEMODEL.dll": {}
+        }
+      },
+      "IREPOSITORY/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EKEKOSDATABASEMODEL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "REQUESTRESPONSEMODEL": "1.0.0",
+          "UTILINTERFACE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IREPOSITORY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IREPOSITORY.dll": {}
+        }
+      },
+      "REQUESTRESPONSEMODEL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/REQUESTRESPONSEMODEL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/REQUESTRESPONSEMODEL.dll": {}
+        }
+      },
+      "UTILCONSTANS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UTILCONSTANS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UTILCONSTANS.dll": {}
+        }
+      },
+      "UTILINTERFACE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UTILINTERFACE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UTILINTERFACE.dll": {}
+        }
       }
     }
   },
@@ -4376,17 +4474,53 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CommonModel/1.0.0": {
+      "type": "project",
+      "path": "../CommonModel/CommonModel.csproj",
+      "msbuildProject": "../CommonModel/CommonModel.csproj"
+    },
+    "EKEKOSDATABASEMODEL/1.0.0": {
+      "type": "project",
+      "path": "../EKEKOSDATABASEMODEL/EKEKOSDATABASEMODEL.csproj",
+      "msbuildProject": "../EKEKOSDATABASEMODEL/EKEKOSDATABASEMODEL.csproj"
+    },
+    "IREPOSITORY/1.0.0": {
+      "type": "project",
+      "path": "../IREPOSITORY/IREPOSITORY.csproj",
+      "msbuildProject": "../IREPOSITORY/IREPOSITORY.csproj"
+    },
+    "REQUESTRESPONSEMODEL/1.0.0": {
+      "type": "project",
+      "path": "../REQUESTRESPONSEMODEL/REQUESTRESPONSEMODEL.csproj",
+      "msbuildProject": "../REQUESTRESPONSEMODEL/REQUESTRESPONSEMODEL.csproj"
+    },
+    "UTILCONSTANS/1.0.0": {
+      "type": "project",
+      "path": "../UTILCONSTANS/UTILCONSTANS.csproj",
+      "msbuildProject": "../UTILCONSTANS/UTILCONSTANS.csproj"
+    },
+    "UTILINTERFACE/1.0.0": {
+      "type": "project",
+      "path": "../UTILINTERFACE/UTILINTERFACE.csproj",
+      "msbuildProject": "../UTILINTERFACE/UTILINTERFACE.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CommonModel >= 1.0.0",
+      "EKEKOSDATABASEMODEL >= 1.0.0",
+      "IREPOSITORY >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
-      "Microsoft.Extensions.Configuration.Json >= 8.0.0"
+      "Microsoft.Extensions.Configuration.Json >= 8.0.0",
+      "REQUESTRESPONSEMODEL >= 1.0.0",
+      "UTILCONSTANS >= 1.0.0",
+      "UTILINTERFACE >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4415,7 +4549,26 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\CommonModel\\CommonModel.csproj"
+            },
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\EKEKOSDATABASEMODEL\\EKEKOSDATABASEMODEL.csproj"
+            },
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\IREPOSITORY\\IREPOSITORY.csproj"
+            },
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\REQUESTRESPONSEMODEL\\REQUESTRESPONSEMODEL.csproj"
+            },
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj"
+            },
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILINTERFACE\\UTILINTERFACE.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

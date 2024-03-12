@@ -1623,6 +1623,19 @@
             "rid": "win"
           }
         }
+      },
+      "UTILCONSTANS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UTILCONSTANS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UTILCONSTANS.dll": {}
+        }
       }
     }
   },
@@ -4376,6 +4389,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "UTILCONSTANS/1.0.0": {
+      "type": "project",
+      "path": "../UTILCONSTANS/UTILCONSTANS.csproj",
+      "msbuildProject": "../UTILCONSTANS/UTILCONSTANS.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4386,7 +4404,8 @@
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
-      "Microsoft.Extensions.Configuration.Json >= 8.0.0"
+      "Microsoft.Extensions.Configuration.Json >= 8.0.0",
+      "UTILCONSTANS >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4415,7 +4434,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj": {
+              "projectPath": "D:\\ekekosPolleriav2\\EkekosPolleria\\UTILCONSTANS\\UTILCONSTANS.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

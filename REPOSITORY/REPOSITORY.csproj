@@ -22,4 +22,13 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CommonModel\CommonModel.csproj" />
+    <ProjectReference Include="..\EKEKOSDATABASEMODEL\EKEKOSDATABASEMODEL.csproj" />
+    <ProjectReference Include="..\IREPOSITORY\IREPOSITORY.csproj" />
+    <ProjectReference Include="..\REQUESTRESPONSEMODEL\REQUESTRESPONSEMODEL.csproj" />
+    <ProjectReference Include="..\UTILCONSTANS\UTILCONSTANS.csproj" />
+    <ProjectReference Include="..\UTILINTERFACE\UTILINTERFACE.csproj" />
+  </ItemGroup>
+
 </Project>

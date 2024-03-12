@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UTILAUTOMAPPER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75fa82faf09ec0da5bc178f78d81f0bb89953bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("UTILAUTOMAPPER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UTILAUTOMAPPER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
