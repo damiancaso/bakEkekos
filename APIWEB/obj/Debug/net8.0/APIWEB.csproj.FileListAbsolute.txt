@@ -4,8 +4,6 @@ D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfoIn
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.AssemblyInfo.cs
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.CoreCompileInputs.cache
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.MvcApplicationPartsAssemblyInfo.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.RazorAssemblyInfo.cache
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.RazorAssemblyInfo.cs
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.sourcelink.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\appsettings.Development.json
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\bin\Debug\net8.0\appsettings.json
@@ -168,9 +166,7 @@ D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets\msbui
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIWEB.props
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIWEB.props
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\staticwebassets.pack.json
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\scopedcss\otro\Shared\_Layout.cshtml.rz.scp.css
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\scopedcss\bundle\APIWEB.styles.css
-D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\scopedcss\projectbundle\APIWEB.bundle.scp.css
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.csproj.CopyComplete
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\APIWEB.dll
 D:\ekekosPolleriav2\EkekosPolleria\APIWEB\obj\Debug\net8.0\refint\APIWEB.dll

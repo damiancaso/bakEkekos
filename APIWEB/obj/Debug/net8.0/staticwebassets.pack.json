@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\APIWEB.bundle.scp.css",
-      "PackagePath": "staticwebassets\\APIWEB.bundle.scp.css"
-    },
-    {
       "Id": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

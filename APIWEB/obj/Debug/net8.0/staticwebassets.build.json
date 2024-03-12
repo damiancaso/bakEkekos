@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o0krhm+orEAJeCIz5N/phM5t2wnaIZG7sVlrO8eBxHY=",
+  "Hash": "DqPeU3T4W6etaQAn6u2M6PXyRemR7ZeeeiogqTAlv78=",
   "Source": "APIWEB",
   "BasePath": "_content/APIWEB",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APIWEB.styles.css",
-      "SourceId": "APIWEB",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/APIWEB",
-      "RelativePath": "APIWEB.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APIWEB.styles.css"
-    },
-    {
-      "Identity": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\APIWEB.bundle.scp.css",
-      "SourceId": "APIWEB",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/APIWEB",
-      "RelativePath": "APIWEB.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\APIWEB.bundle.scp.css"
-    },
     {
       "Identity": "D:\\ekekosPolleriav2\\EkekosPolleria\\APIWEB\\wwwroot\\css\\site.css",
       "SourceId": "APIWEB",
