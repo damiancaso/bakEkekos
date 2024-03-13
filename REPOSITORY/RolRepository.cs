@@ -27,6 +27,9 @@ namespace REPOSITORY
                             case "descripcion":
                                 query = query.Where(x => x.Descripcion.ToLower().Contains(j.Value.ToLower()));
                                 break;
+                            case "funcion":
+                                query = query.Where(x => x.Funcion.ToLower().Contains(j.Value.ToLower()));
+                                break;
                             case "idEstado":
                                 query = query.Where(x => x.IdEstado == bool.Parse(j.Value));
                                 break;
