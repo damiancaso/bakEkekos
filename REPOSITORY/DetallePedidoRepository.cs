@@ -10,10 +10,11 @@ using System.Threading.Tasks;
 namespace REPOSITORY
 {
     public class DetallePedidoRepository : CrudRepository<DetallePedido>, IDetallePedidoRepository
-    {
+    {       
         public GenericFilterResponse<DetallePedido> GetByFilter(GenericFilterRequest request)
         {
             throw new NotImplementedException();
         }
     }
 }
+
