@@ -34,6 +34,9 @@ public partial class Pedido
     [Column("id_mesa")]
     public int? IdMesa { get; set; }
 
+    [Column("idTipoPedido")]
+    public int? IdTipoPedido { get; set; }
+
     [InverseProperty("IdPedidoNavigation")]
     public virtual ICollection<DetallePedido> DetallePedidos { get; set; } = new List<DetallePedido>();
 
@@ -48,6 +51,10 @@ public partial class Pedido
     [ForeignKey("IdMetodoPago")]
     [InverseProperty("Pedidos")]
     public virtual MetodoPago? IdMetodoPagoNavigation { get; set; }
+
+    [ForeignKey("IdTipoPedido")]
+    [InverseProperty("Pedidos")]
+    public virtual TipoPedido? IdTipoPedidoNavigation { get; set; }
 
     [ForeignKey("IdUsuario")]
     [InverseProperty("Pedidos")]

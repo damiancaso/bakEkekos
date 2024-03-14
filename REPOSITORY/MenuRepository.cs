@@ -26,6 +26,32 @@ namespace REPOSITORY
                         case "nombre":
                             query = query.Where(x => x.Nombre.ToLower().Contains(j.Value.ToLower()));
                             break;
+                        case "descripcion":
+                            query = query.Where(x => x.Descripcion.ToLower().Contains(j.Value.ToLower()));
+                            break;
+                        case "icono":
+                            query = query.Where(x => x.Icono.ToLower().Contains(j.Value.ToLower()));
+                            break;
+                        case "dato":
+                            query = query.Where(x => x.Datatarget.ToLower().Contains(j.Value.ToLower()));
+                            break;
+                        case "url":
+                            query = query.Where(x => x.Url.ToLower().Contains(j.Value.ToLower()));
+                            break;
+                        case "padre":
+                            query = query.Where(x => x.Padre == int.Parse(j.Value));
+                            break;
+                        case "estado":
+                            query = query.Where(x => x.IdEstado == bool.Parse(j.Value));
+                            break;
+                        case "usuariocrea":
+                            query = query.Where(x => x.UsuarioCrea.ToLower().Contains(j.Value.ToLower()));
+                            break;
+                        case "usuarioactua":
+                            query = query.Where(x => x.UsuarioActualiza.ToLower().Contains(j.Value.ToLower()));
+                            break;
+
+                            
 
                     }
                 }

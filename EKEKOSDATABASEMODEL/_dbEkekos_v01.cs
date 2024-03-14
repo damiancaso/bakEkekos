@@ -47,6 +47,8 @@ public partial class _dbEkekos_v01 : DbContext
 
     public virtual DbSet<Rol> Rols { get; set; }
 
+    public virtual DbSet<TipoPedido> TipoPedidos { get; set; }
+
     public virtual DbSet<UbicacionGeo> UbicacionGeos { get; set; }
 
     public virtual DbSet<UserSesion> UserSesions { get; set; }
@@ -137,6 +139,8 @@ public partial class _dbEkekos_v01 : DbContext
 
             entity.HasOne(d => d.IdMetodoPagoNavigation).WithMany(p => p.Pedidos).HasConstraintName("FK__Pedido__id_metod__656C112C");
 
+            entity.HasOne(d => d.IdTipoPedidoNavigation).WithMany(p => p.Pedidos).HasConstraintName("fk_tipoPedido");
+
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Pedidos).HasConstraintName("FK__Pedido__id_usuar__66603565");
         });
 
@@ -183,6 +187,11 @@ public partial class _dbEkekos_v01 : DbContext
         modelBuilder.Entity<Rol>(entity =>
         {
             entity.HasKey(e => e.IdRol).HasName("PK__Rol__76482FD28DA3B958");
+        });
+
+        modelBuilder.Entity<TipoPedido>(entity =>
+        {
+            entity.HasKey(e => e.Idtipopedido).HasName("PK__tipoPedi__0241277DD59DFA03");
         });
 
         modelBuilder.Entity<UbicacionGeo>(entity =>

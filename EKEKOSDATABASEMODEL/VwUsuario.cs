@@ -23,37 +23,37 @@ public partial class VwUsuario
 
     [StringLength(50)]
     [Unicode(false)]
-    public string Username { get; set; } 
+    public string Username { get; set; } = null!;
 
     [StringLength(50)]
     [Unicode(false)]
-    public string Pasword { get; set; } 
+    public string Pasword { get; set; } = null!;
 
     [Column("change_paswword")]
     [StringLength(50)]
     [Unicode(false)]
-    public string ChangePaswword { get; set; } 
+    public string ChangePaswword { get; set; } = null!;
 
     [Column("email")]
     [StringLength(90)]
     [Unicode(false)]
-    public string Email { get; set; } 
+    public string Email { get; set; } = null!;
 
     public string? Rol { get; set; }
 
     [StringLength(8)]
     [Unicode(false)]
-    public string Estado { get; set; } 
+    public string Estado { get; set; } = null!;
 
     [Column("usuario_crea")]
     [StringLength(50)]
     [Unicode(false)]
-    public string UsuarioCrea { get; set; } 
+    public string UsuarioCrea { get; set; } = null!;
 
     [Column("usuario_actualiza")]
     [StringLength(50)]
     [Unicode(false)]
-    public string UsuarioActualiza { get; set; } 
+    public string UsuarioActualiza { get; set; } = null!;
 
     [Column("fecha_crea", TypeName = "datetime")]
     public DateTime FechaCrea { get; set; }

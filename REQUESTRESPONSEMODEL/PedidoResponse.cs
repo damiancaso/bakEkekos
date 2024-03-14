@@ -27,9 +27,8 @@ namespace REQUESTRESPONSEMODEL
 
 
         public int? IdMetodoPago { get; set; }
-
-
         public int? IdMesa { get; set; }
+        public int? IdTipoPedido { get; set; }
 
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EKEKOSDATABASEMODEL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baad41382aad9b55472b7a8af3185b292609a719")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+541e880add19139eeaa7207fa6997083bc2ca269")]
 [assembly: System.Reflection.AssemblyProductAttribute("EKEKOSDATABASEMODEL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EKEKOSDATABASEMODEL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,10 +7,3 @@ workstation id=ekekov03.mssql.somee.com;packet size=4096;user id=JoseT_SQLLogin_
 "data source=EkekosDB2.mssql.somee.com;persist security info=False;initial catalog=EkekosDB2;user id=Deymian_SQLLogin_1;pwd=9riup1jf2h;Trust Server Certificate=true"
 
 
-/// delivery direccion precio reserva elll numero deresrva el tiempo que va llegar
-mesas que hay
-mesas disponibles 
-mesas ocupadas
-numero de comensales
-tiempo
-hora y fechadetalle
