@@ -1,0 +1,13 @@
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\bin\Debug\net8.0\UTILEXCEL.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\bin\Debug\net8.0\UTILEXCEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\bin\Debug\net8.0\UTILEXCEL.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.sourcelink.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\refint\UTILEXCEL.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\UTILEXCEL.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILEXCEL\obj\Debug\net8.0\ref\UTILEXCEL.dll

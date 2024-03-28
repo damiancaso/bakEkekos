@@ -1,0 +1,13 @@
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\bin\Debug\net8.0\UTILSECURITY.deps.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\bin\Debug\net8.0\UTILSECURITY.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\bin\Debug\net8.0\UTILSECURITY.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.csproj.AssemblyReference.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.GeneratedMSBuildEditorConfig.editorconfig
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.AssemblyInfoInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.AssemblyInfo.cs
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.csproj.CoreCompileInputs.cache
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.sourcelink.json
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\refint\UTILSECURITY.dll
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\UTILSECURITY.pdb
+D:\ekekosPolleriav2\EkekosPolleria\UTILSECURITY\obj\Debug\net8.0\ref\UTILSECURITY.dll

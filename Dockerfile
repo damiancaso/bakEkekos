@@ -1,0 +1,37 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 as base
+WORKDIR /app
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+COPY BUSSNIES /src/BUSSNIES
+COPY CommonModel /src/CommonModel
+COPY EKEKOSDATABASEMODEL /src/EKEKOSDATABASEMODEL
+COPY EkekosPolleria /src/EkekosPolleria
+COPY IBUSSNIES /src/IBUSSNIES
+COPY IREPOSITORY /src/IREPOSITORY
+COPY ISERVICES /src/ISERVICES
+COPY REPOSITORY /src/REPOSITORY
+COPY REQUESTRESPONSEMODEL /src/REQUESTRESPONSEMODEL
+COPY SERVICES /src/SERVICES
+COPY UTILAUTOMAPPER /src/UTILAUTOMAPPER
+COPY UTILCONSTANS /src/UTILCONSTANS
+COPY UTILEXCEL /src/UTILEXCEL
+COPY UTILINTERFACE /src/UTILINTERFACE
+COPY UTILPDF /src/UTILPDF
+COPY UTILSECURITY /src/UTILSECURITY
+COPY APIWEB /src/APIWEB
+
+WORKDIR /src/APIWEB
+RUN ls
+RUN dotnet restore
+RUN dotnet build "APIWEB.csproj" -c Debug -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "APIWEB.csproj" -c Debug -o /app/publish /p:EnvironmentName=Development
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+EXPOSE 80
+ENTRYPOINT ["dotnet","APIWEB.dll"] 
+
+

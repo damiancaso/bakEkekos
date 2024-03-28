@@ -1,0 +1,9 @@
+Scaffold-DbContext "data source=ekekov03.mssql.somee.com;persist security info=False;initial catalog=ekekov03;user id=JoseT_SQLLogin_1;pwd=nxusthytor;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer  -DataAnnotations -Context "_dbEkekos_v01" -Force
+
+Scaffold-DbContext "data source=ekekov03.mssql.somee.com;persist security info=False;initial catalog=ekekov03;user id=JoseT_SQLLogin_1;pwd=nxusthytor;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer  -DataAnnotations -Context "_dbEkekos_v01" -Force
+
+workstation id=ekekov03.mssql.somee.com;packet size=4096;user id=JoseT_SQLLogin_1;pwd=nxusthytor;data source=ekekov03.mssql.somee.com;persist security info=False;initial catalog=ekekov03;TrustServerCertificate=True
+
+"data source=EkekosDB2.mssql.somee.com;persist security info=False;initial catalog=EkekosDB2;user id=Deymian_SQLLogin_1;pwd=9riup1jf2h;Trust Server Certificate=true"
+
+
